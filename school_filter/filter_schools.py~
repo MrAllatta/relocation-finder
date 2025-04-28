@@ -1,0 +1,36 @@
+"""
+Module for loading and filtering NYC school datasets based on quality and demographics.
+"""
+import pandas as pd
+
+def load_school_data(csv_path: str) -> pd.DataFrame:
+    """
+    Load school quality and demographic data from a CSV file.
+
+    Args:
+        csv_path: Path to the school data CSV.
+
+    Returns:
+        Pandas DataFrame containing school data.
+    """
+    # TODO: implement CSV loading logic
+    pass
+
+def filter_schools(
+    df: pd.DataFrame,
+    min_quality: float,
+    demographic_criteria: dict
+) -> pd.DataFrame:
+    """
+    Filter schools based on quality score and demographic criteria.
+
+    Args:
+        df: DataFrame of schools.
+        min_quality: Minimum quality score to filter schools.
+        demographic_criteria: Dictionary of demographic thresholds.
+
+    Returns:
+        DataFrame of filtered schools.
+    """
+    # TODO: implement filtering logic based on criteria
+    pass
