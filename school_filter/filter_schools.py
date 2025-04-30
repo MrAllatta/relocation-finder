@@ -6,7 +6,7 @@ import requests
 
 # --- CONFIGURATION ---
 SCHOOL_QUALITY_BASE_URL = "https://data.cityofnewyork.us/resource/dnpx-dfnc.json"
-SCHOOL_DEMOGRAPHICS_BASE_URL = "https://data.cityofnewyork.us/resource/virj-rwgi.json"  # <-- assumed correct endpoint
+SCHOOL_DEMOGRAPHICS_BASE_URL = "https://data.cityofnewyork.us/resource/vmmu-wj3w.json"
 APP_TOKEN = None  # Optional: Add your Socrata app token if you have one
 
 # --- GENERIC QUERY BUILDER ---
